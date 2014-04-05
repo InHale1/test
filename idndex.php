@@ -1,4 +1,3 @@
-
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <div class="autorization" style="float:left" >
 	<form id="autorization_form", action ="auth.php", action="<?php echo $_SERVER['REQUEST_URI']; ?>" method = "POST" >
@@ -27,7 +26,7 @@
 <br/>
 
 <div class="Search" style="float:left" >
-<form aсtion="Search.php" method = "POST">
+<form aсtion="Search.php", action="<?php echo $_SERVER['REQUEST_URI']; ?>" method = "POST">
     Search:<br>
     <select name="searchtype" size=1>
     <option value="PID" selected>PID
